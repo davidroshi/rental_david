@@ -1,8 +1,105 @@
-    #pageWrap
+    
+    body
     {
-        border: 1px solid;
-        height: 620px;
-        width: 1200px;
-        margin-left: 4pc;
-        border-radius: 20px;
+        background-color: black;
     }
+
+    //#topBanner
+    {  
+       border-radius: 10px; 
+       background-image: url('../img/white.jpg');
+    }
+
+    #midSection
+    {
+        background-color: whitesmoke;
+        height: 300px;
+        width: 784px;
+        margin-left: 272px;
+        margin-top: 263px; 
+        border: ridge;
+    }
+    
+    #midSection p
+    {
+        text-align: center;
+        font-family: fantasy;
+        font-size: larger;
+    }
+    
+    #looperWrap
+    {
+        width: 806px;
+        height: 400px;
+        position: absolute;
+        left: 280px;
+        top: 60px;
+    }
+    
+  /* #leftColoumn
+   {
+       width: 145px;
+       height: 400px;
+       background-color: blue;
+        border: solid black; 
+       border-radius: 10px;
+       box-shadow: 3px 2px 7px;
+   }
+   */ 
+   .loginMem
+   {
+        position: absolute;
+        left: 62pc;
+        
+   }
+   
+   #bannerline
+   {
+       margin-left: 64px;
+   }
+   #menubtn1
+   {
+        border: solid black;
+        display: inline-block;
+        width: 147px;
+        height: 77px;
+   }
+   
+     
+   {
+       background-color:red;
+   }
+   
+   #buttons
+   {
+       position: absolute;
+       top: 37px;
+       left: 280px;
+   }
+   
+   .middlebox
+   {
+       border: inset blanchedalmond;
+       width: 600px;
+       height: 300px;
+       position: absolute;
+       left: 25pc;
+       top: 262px;
+       background-color: honeydew;
+       border-radius: 20px;
+   }
+   
+   #picPlace
+   {
+       border: solid;
+       width: 225px;
+       height: 225px;
+       border-radius: 17px;
+   }
+   
+   .buttons
+   {
+       position: absolute;
+       left: 268px;
+       top: 210px;
+   }
